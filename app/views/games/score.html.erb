@@ -1,0 +1,12 @@
+<h1>Games#score</h1>
+
+
+<% if @made_from_list = true && @is_real == true%>
+    <p>Good job, your word is <%= @user_word %></p>
+  <% elsif @made_from_list == false%>
+    <p>Sorry, please Use the words from the list</p>
+  <% else @is_real == false  %>
+    <p>Sorry your word isn't in the dictionary!</p> -->
+<% end %>
+
+
